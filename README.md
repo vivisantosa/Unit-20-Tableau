@@ -1,5 +1,3 @@
-# 
-
 # NewYork Citibike Vizualisation Project<br>
 <img src="/images/Screenshot (215).png" width="1080"><br>
 
@@ -9,7 +7,7 @@ NewYork CitiBike changed the way NewYorkers get around. We created a story to sh
 Author: Vivianti Santosa <br>
 Date: 2020-10-15 <br><br>
 
-#### https://public.tableau.com/profile/vivianti.santosa#!<br><br>
+#### https://public.tableau.com/profile/vivianti.santosa#!/vizhome/CitiBike-Vivi/Dashboard1<br><br>
 <img align="right" src="Images/Screenshot 1.png" width="50%">
 This assignment is to create an interactive dashboard to tell the story of New York citibike using Tableau Public. <br>
 The Belly Button Biodiversity dataset catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
