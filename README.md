@@ -25,9 +25,9 @@ As I worked on the file, I noticed some oddity in the data set, where a certain 
 The first story that I chose to explore is the year by year growth of citibike. Because of the size of the data, I chose to only use the data from each June report of the data.<br>
 
 The second one is the exploration characteristics and information of a particular bike station. A person can choose and click a station from a list or in the map and the information will be adjusted to the particular station.<br>
-<img src="/images/Screenshot (216).png" width="33%">   <img src="/images/Screenshot (217).png" width="33%">   <img src="/images/Screenshot (218).png" width="33%"><br>
+<img src="/images/Screenshot (216).png" width="32%">   <img src="/images/Screenshot (217).png" width="32%">   <img src="/images/Screenshot (218).png" width="32%"><br>
 
 
 ## NOTES 
 I originally built the visualization in tableau desktop student edition, unknowingly that it is not possible to post to tableau public from it.  I have to recreate my visualization and decided not to remake the whole 8 dashboards that I did in tableau dashboard. I take screenshots of the pages that I didn’t recreate and attached them at the end of my tableau public as pictures<br>
-<img src="/images/Screenshot (212).png" width="33%">   <img src="/images/Screenshot (205).png" width="33%"><br>   <img src="/images/Screenshot (210).png" width="33%"> 
+<img src="/images/Screenshot (212).png" width="32%">   <img src="/images/Screenshot (205).png" width="32%"><br>   <img src="/images/Screenshot (210).png" width="32%"> 
