@@ -30,4 +30,4 @@ The second one is the exploration characteristics and information of a particula
 
 ## NOTES 
 I originally built the visualization in tableau desktop student edition, unknowingly that it is not possible to post to tableau public from it.  I have to recreate my visualization and decided not to remake the whole 8 dashboards that I did in tableau dashboard. I take screenshots of the pages that I didn’t recreate and attached them at the end of my tableau public as pictures<br>
-<img src="/images/Screenshot (212).png" width="32%">   <img src="/images/Screenshot (205).png" width="32%"><br>   <img src="/images/Screenshot (210).png" width="32%"> 
+<img src="/images/Screenshot (212).png" width="32%">   <img src="/images/Screenshot (205).png" width="32%"><br>   <img src="/images/Screenshot (210).png" width="31%"> 
