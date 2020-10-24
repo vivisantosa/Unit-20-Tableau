@@ -1,4 +1,4 @@
-# NewYork Citibike Vizualisation Project<br>
+# NewYork Citibike Visualization Project<br>
 <img src="/images/Screenshot (215).png" width="1080"><br>
 
 NewYork CitiBike changed the way NewYorkers get around. We created a story to show how it has grew since its inception in interactive way.<br>
@@ -8,26 +8,26 @@ Author: Vivianti Santosa <br>
 Date: 2020-10-15 <br><br>
 
 #### https://public.tableau.com/profile/vivianti.santosa#!/vizhome/CitiBike-Vivi/Dashboard1<br><br>
-<img align="right" src="Images/Screenshot 1.png" width="50%">
+
 This assignment is to create an interactive dashboard to tell the story of New York citibike using Tableau Public. <br>
-The Belly Button Biodiversity dataset catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
-The dashboard will allow visitors to explore the biodiversity and the metadata (information about the person behind the sample) of each sample, by choosing a sample number.<br>
-Please enjoy our Belly Button Dashboard with the link above. <br>
 
-The dashboard is to be created using HTML, d3, and javascript, using graphs from Plotly library. The steps to create the dashboard is as follow :<br>
+### Data Manipulation <br>
+As I use data across the years, the first data manipulation that is needed is to adjust the 2015 and 2016 data set. I use jupyter notebook-pandas to achieve that. To make chart cheration more smooth I also changed the data type for the gender and gave them aliases. <br>
 
-1. Data connection<br>
-  The data for this project is provided in samples.json file. It is uploaded and read to the app file using the d3 library to initialize data and create a global data to be used in the whole project. <br>
+From reading the file, I understand that the trip duration within the contract is 30 min for customers and 45 for subscribers. Beyond that they will be charged additional fees. Because of this, rides beyond a few hours should be an exception. Bike that does not get returned beyond 24 hour is considered lost and is heavily fined. I performed analysis on different ride duration lengths - despite believing that most of trip duration above 6 hrs is a lost bike, determining which one beyond a certain hour before 24 is considered lost is difficult, thus decided only to filter rides that are beyond 24 hrs. <br>
 
-2. Create dropdown menu and populate it with information from the global data.<br>
+<img align="right" src="/images/Screenshot (211).png" width="40%">
+As I worked on the file, I noticed some oddity in the data set, where a certain age group has above normal number of rides. After doing various filtering, I figured out that the above normal number actually contributes to a very specific group - born in 1969, gender 0 (not available), and have an extraordinary high trip duration. This is a subset that I need to filter from my data although I am still challenged on the techniques to do that. <br>
+<br>
 
-3. Create graphs with Plotly library and display it in assigned ligation in the HTML dashboard.  <br>
-    - Dynamic Table
-    - Horizontal Bar Chart 
-    - Bubble Chart 
-    - Gauge Chart
+### Visualization 
 
-## EXTRA 
-In addition to the chart above I created a sunburst chart with data from the website. Instead of using sample data, the sunburst chart uses the whole project data and shows the taxonomy of the 20 most common bacteria.  <br>
-To create this chart the data is rearranged according to parents - children system requires for this type of charts.<br><br>
-<img  src="/Images/sunburst1.png" width="60%"><br>
+The first story that I chose to explore is the year by year growth of citibike. Because of the size of the data, I chose to only use the data from each June report of the data.<br>
+
+The second one is the exploration characteristics and information of a particular bike station. A person can choose and click a station from a list or in the map and the information will be adjusted to the particular station.<br>
+
+
+
+## NOTES 
+I originally built the visualization in tableau desktop student edition, unknowingly that it is not possible to post to tableau public from it.  I have to recreate my visualization and decided not to remake the whole 8 dashboards that I did in tableau dashboard. I take screenshots of the pages that I didn’t recreate and attached them at the end of my tableau public as pictures<br>
+<img align="right" src="/images/Screenshot (215).png" width="50%"><br>
