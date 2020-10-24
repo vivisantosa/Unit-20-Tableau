@@ -16,8 +16,8 @@ As I use data across the years, the first data manipulation that is needed is to
 
 From reading the file, I understand that the trip duration within the contract is 30 min for customers and 45 for subscribers. Beyond that they will be charged additional fees. Because of this, rides beyond a few hours should be an exception. Bike that does not get returned beyond 24 hour is considered lost and is heavily fined. I performed analysis on different ride duration lengths - despite believing that most of trip duration above 6 hrs is a lost bike, determining which one beyond a certain hour before 24 is considered lost is difficult, thus decided only to filter rides that are beyond 24 hrs. <br>
 
-<img align="right" src="/images/Screenshot (211).png" width="40%">
-As I worked on the file, I noticed some oddity in the data set, where a certain age group has above normal number of rides. After doing various filtering, I figured out that the above normal number actually contributes to a very specific group - born in 1969, gender 0 (not available), and have an extraordinary high trip duration. This is a subset that I need to filter from my data although I am still challenged on the techniques to do that. <br>
+<img align="right" src="/images/Screenshot (220).png" width="40%">
+As I worked on the file, I noticed some oddity in the data set, where a certain age group has above normal number of rides. After doing various filtering, I figured out that the above normal number actually contributes to a very specific group - born in 1969, gender 0 (not available), and have an extraordinary high trip duration. I filter this subset from my data, along with riders that was born before 1920 (which most probably a wrongly entered data). <br>
 <br>
 
 ### Visualization 
@@ -30,4 +30,4 @@ The second one is the exploration characteristics and information of a particula
 
 ## NOTES 
 I originally built the visualization in tableau desktop student edition, unknowingly that it is not possible to post to tableau public from it.  I have to recreate my visualization and decided not to remake the whole 8 dashboards that I did in tableau dashboard. I take screenshots of the pages that I didn’t recreate and attached them at the end of my tableau public as pictures<br>
-<img align="right" src="/images/Screenshot (215).png" width="50%"><br>
+<img align="right" src="/images/Screenshot (212).png" width="30%">   <img align="right" src="/images/Screenshot (205).png" width="30%"><br>
